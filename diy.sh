@@ -13,7 +13,7 @@ git clone https://github.com/tcsr200722/luci-app-koolproxyR.git package/luci-app
 mkdir -p package/luci-app-diskman && wget https://raw.githubusercontent.com/lisaac/luci-app-diskman/master/Makefile -O package/luci-app-diskman/Makefile
 mkdir -p package/parted && wget https://raw.githubusercontent.com/lisaac/luci-app-diskman/master/Parted.Makefile -O package/parted/Makefile
 #add luci-app-filebrowser
-git clone https://github.com/yangsongli/luci-app-filebrowser.git package/luci-app-filebrowser
+git clone https://github.com/project-openwrt/FileBrowser.git package/luci-app-filebrowser
 #add OpenAppFilter
 git clone https://github.com/project-openwrt/OpenAppFilter.git package/OpenAppFilter
 #upgrade feeds
