@@ -17,7 +17,7 @@ git clone https://github.com/project-openwrt/FileBrowser.git package/luci-app-fi
 #add OpenAppFilter
 git clone https://github.com/project-openwrt/OpenAppFilter.git package/OpenAppFilter
 #add luci-app-syncthing tmp
-git clone https://gitee.com/tcsr200722/openwrt.git package/luci-app-syncthing
+git clone https://github.com/tcsr200722/luci-app-syncthing.git package/luci-app-syncthing
 #upgrade feeds
 ./scripts/feeds update -a
 ./scripts/feeds install -a
