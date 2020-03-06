@@ -16,8 +16,8 @@ mkdir -p package/parted && wget https://raw.githubusercontent.com/lisaac/luci-ap
 git clone https://github.com/project-openwrt/FileBrowser.git package/luci-app-filebrowser
 #add OpenAppFilter
 git clone https://github.com/project-openwrt/OpenAppFilter.git package/OpenAppFilter
-#add luci-app-softwarecenter tmp
-git clone https://github.com/hong0980/luci-app-softwarecenter.git package/luci-app-softwarecenter
+#add luci-app-syncthing tmp
+git clone https://gitee.com/tcsr200722/openwrt.git package/luci-app-syncthing
 #upgrade feeds
 ./scripts/feeds update -a
 ./scripts/feeds install -a
