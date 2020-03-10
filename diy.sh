@@ -16,6 +16,8 @@ mkdir -p package/parted && wget https://raw.githubusercontent.com/lisaac/luci-ap
 git clone https://github.com/project-openwrt/FileBrowser.git package/luci-app-filebrowser
 #add OpenAppFilter
 git clone https://github.com/project-openwrt/OpenAppFilter.git package/OpenAppFilter
+#add luci-app-webshell
+git clone https://github.com/siwind/luci-app-webshell.git package/luci-app-webshell
 #upgrade feeds
 ./scripts/feeds update -a
 ./scripts/feeds install -a
