@@ -17,7 +17,7 @@ git clone https://github.com/project-openwrt/FileBrowser.git package/luci-app-fi
 #add OpenAppFilter
 git clone https://github.com/project-openwrt/OpenAppFilter.git package/OpenAppFilter
 #add luci-app-webshell
-git clone https://github.com/siwind/luci-app-webshell.git package/luci-app-webshell
+#git clone https://github.com/siwind/luci-app-webshell.git package/luci-app-webshell
 #upgrade feeds
 ./scripts/feeds update -a
 ./scripts/feeds install -a
